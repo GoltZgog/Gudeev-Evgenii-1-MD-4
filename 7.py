@@ -7,7 +7,7 @@ if y in x:
     print("this nice men")
 else:
     print("no good-no respect")
-    
+
 #7.2
 a=0
 c=[]
