@@ -37,7 +37,7 @@ for e in a:
     c += 1
     if v.mode == "RGBA":
         v=v.convert("RGB")
-    v.save(f"C:/Users/Goltz/Desktop/9/9.3/save/save_image{c}.jpg")
+    v.save(f"C:/Users/Goltz 9/9.3/save/save_image{c}.jpg")
 #9.4
 for e in a:
     draw=ImageDraw.Draw(e)

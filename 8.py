@@ -34,6 +34,7 @@ b=[]
 d=[]
 for k,v in a.items():
     for l in v:
+        print(l)
         b.append(l)
     if "китайский" in v:
         d.append(k)
