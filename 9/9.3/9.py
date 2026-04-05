@@ -13,7 +13,7 @@ print("razreshenie",a.size,"\n","format",a.format,"\n","tsvet model",a.mode)
 #9.2
 a=a.resize((int(a.width/3),int(a.height/3)))
 b=a.resize((int(a.height/3),int(a.width/3)))
-b=b.transpose(Image.Transpose.FLIP_TOP_BOTTOM)
+b=b.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
 a.show()
 
 a=a.save(r"C:\Users\Goltz\Desktop\9\жмых горизонт.jpg")
