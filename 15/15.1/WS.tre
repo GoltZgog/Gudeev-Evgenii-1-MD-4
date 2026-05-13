@@ -1,0 +1,6 @@
+PAGE
+    Toplevel: cafe
+        Entry: inv  
+        Label: out  
+        Button: jmay  
+
